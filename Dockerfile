@@ -8,4 +8,4 @@ RUN tar -zxvf txeh_Linux_x86_64.tar.gz
 RUN mv txeh /usr/local/bin/
 RUN chmod +x /usr/local/bin/txeh
 
-ENTRYPOINT txeh
+ENTRYPOINT [ "/usr/local/bin/txeh" ]
